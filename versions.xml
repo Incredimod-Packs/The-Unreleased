@@ -12,6 +12,7 @@ HOW TO USE IT:
 
 <icons>
   <line>
-    <icon name="Template" ID="1" color="#666" locked="false" customName="true" customIcon="asset-v1/icon.png" hidden="false"></icon>
+    <icon name="The Last Day" ID="1" color="#3a4965" locked="false" customName="false" customIcon="asset-v1/The Last Day.png" hidden="false"></icon>
+    <icon name="Pop Zey" ID="2" color="#2b6c6c" locked="false" customName="false" customIcon="asset-v2/Pop Zey.png" hidden="false"></icon>
   </line>
 </icons>
