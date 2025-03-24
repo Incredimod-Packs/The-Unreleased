@@ -6364,3 +6364,10 @@ progress::-moz-progress-bar {
     height: 24px;
   }
 }
+
+#picto20 {
+  position: absolute;
+  width: 70px !important;
+  left: -146px;
+  top: -41px;
+}
