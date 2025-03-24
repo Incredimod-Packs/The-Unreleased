@@ -1,139 +1,221 @@
-// Here all versions are located, the same as app.js but this time its apps.js because all versions info is located in this one file
-// To add more versions, copy the versions.v1 and replace with versions.v2, and the same with others (it support more than 9 versions)
-
 versions.v1 = {
-  name: "Template",
-  version: "temp01",
-  date: "2025",
-  folder: "asset-v1/", // ← If you are adding more versions, make sure follder is correct, for example "asset-v2/" for v2
-  looptime: 5333,
-  bpm: 90,
-  totalframe: 260,
-  nbpolo: 7,
-  bonusloopA: false, // ← It makes bonus start on loop A, if its false, bonus will start after 1 loop
-  bonusendloopA: true,
-  colBck: "#0F0F0F",
-  col0: "#919191",
-  col1: "#5f5f5f",
-  col2: "#4b4b4b",
-  col3: "#373737",
-  col4: "#232323",
-  animearray: [
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0, // ← !0 means that polo will use only _a audio, if its !1 - it will use _a and _b
-    },
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
-    },
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
-    },
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
-    },
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
-    },
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
-    },
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
-    },
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
-    },
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
-    },
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
-    },
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
-    },
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
-    },
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
-    },
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
-    },
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
-    },
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
-    },
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
-    },
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
-    },
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
-    },
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
-    },
-  ],
-  bonusarray: [
-    {
-      name: "blank",
-      src: "b1-v1-blank-hb",
-      code: "1,2,3,4,5",
-      sound: "aspire-blank",
-      aspire: "aspire-blank",
-      loop: 1, // ← Every bonus have its own loops in this version
-    },
-  ],
+   name: "The Last Day",
+   version: "Unreleased v1",
+   date: "2023",
+   folder: "asset-v1/",
+   looptime: 9600,
+   bpm: 100,
+   totalframe: 460,
+   nbpolo: 7,
+   bonusloopA: false,
+   bonusendloopA: true,
+   colBck: "#0f1523",
+   col0: "#828da0",
+   col1: "#596988",
+   col2: "#384863",
+   col3: "#202a3c",
+   col4: "#131a2a",
+   animearray: [{
+      name: "01kick",
+      color: "af8553",
+      uniqsnd: !1
+   }, {
+      name: "02snare",
+      color: "af8553",
+      uniqsnd: !1
+   }, {
+      name: "03clic",
+      color: "af8553",
+      uniqsnd: !1
+   }, {
+      name: "04klop",
+      color: "af8553",
+      uniqsnd: !0
+   }, {
+      name: "05tombreak",
+      color: "af8553",
+      uniqsnd: !1
+   }, {
+      name: "06bass",
+      color: "10a3b7",
+      uniqsnd: !1
+   }, {
+      name: "07mmmhah",
+      color: "10a3b7",
+      uniqsnd: !0
+   }, {
+      name: "08tututoung",
+      color: "10a3b7",
+      uniqsnd: !1
+   }, {
+      name: "09boowop",
+      color: "10a3b7",
+      uniqsnd: !0
+   }, {
+      name: "10woah",
+      color: "10a3b7",
+      uniqsnd: !1
+   }, {
+      name: "11nugununugu",
+      color: "fe0849",
+      uniqsnd: !1
+   }, {
+      name: "12string",
+      color: "fe0849",
+      uniqsnd: !1
+   }, {
+      name: "13lowarp",
+      color: "fe0849",
+      uniqsnd: !1
+   }, {
+      name: "14settoarp",
+      color: "fe0849",
+      uniqsnd: !1
+   }, {
+      name: "15duuduuduu",
+      color: "fe0849",
+      uniqsnd: !0
+   }, {
+      name: "16somuch",
+      color: "9573fe",
+      uniqsnd: !1
+   }, {
+      name: "17casting",
+      color: "9573fe",
+      uniqsnd: !1
+   }, {
+      name: "18ahwoo",
+      color: "9573fe",
+      uniqsnd: !1
+   }, {
+      name: "19lastday",
+      color: "9573fe",
+      uniqsnd: !1
+   }, {
+      name: "20mind",
+      color: "9573fe",
+      uniqsnd: !1
+   }, ],
+   bonusarray: [{
+      name: "The Last Day",
+      src: "v1-b1-thelastday-hb",
+      code: "4,6,9,11,19",
+      sound: "bonus-thelastday",
+      aspire: "aspire-thelastday",
+      loop: 2,
+   }, ],
 };
 
-// versions.v2 = {
-//  name: "New Version",
-// version: "2",
-// date: "2025",
-// ...
+versions.v2 = {
+   name: "Pop Zey",
+   version: "Unreleased v2",
+   date: "2024",
+   folder: "asset-v2/",
+   looptime: 8000,
+   bpm: 120,
+   totalframe: 384,
+   nbpolo: 7,
+   bonusloopA: false,
+   bonusendloopA: true,
+   colBck: "#0b242c",
+   col0: "#a5d7c6",
+   col1: "#6dafa3",
+   col2: "#2f6c6a",
+   col3: "#235052",
+   col4: "#18373d",
+   animearray: [{
+         name: "1_tshkuh",
+         color: "18373d",
+         uniqsnd: !0
+      }, {
+         name: "2_kick",
+         color: "18373d",
+         uniqsnd: !0
+      }, {
+         name: "3_kahp",
+         color: "18373d",
+         uniqsnd: !0
+      }, {
+         name: "4_pshtom",
+         color: "18373d",
+         uniqsnd: !0
+      }, {
+         name: "5_clics",
+         color: "18373d",
+         uniqsnd: !0
+      }, {
+         name: "6_ooh",
+         color: "2e266d",
+         uniqsnd: !0
+      }, {
+         name: "7_boomboom",
+         color: "2e266d",
+         uniqsnd: !0
+      }, {
+         name: "8_daft",
+         color: "2e266d",
+         uniqsnd: !0
+      }, {
+         name: "9_tukatadrop",
+         color: "2e266d",
+         uniqsnd: !0
+      }, {
+         name: "10_longuebass",
+         color: "2e266d",
+         uniqsnd: !0
+      }, {
+         name: "11_toungtu",
+         color: "9a1e25",
+         uniqsnd: !0
+      }, {
+         name: "12_tutuarp",
+         color: "9a1e25",
+         uniqsnd: !0
+      }, {
+         name: "13_hmmpad",
+         color: "9a1e25",
+         uniqsnd: !0
+      }, {
+         name: "14_ploum",
+         color: "9a1e25",
+         uniqsnd: !0
+      }, {
+         name: "15_siffle",
+         color: "9a1e25",
+         uniqsnd: !1
+      }, {
+         name: "16_weywe",
+         color: "191a26",
+         uniqsnd: !0
+      }, {
+         name: "17_lilcrush",
+         color: "191a26",
+         uniqsnd: !0
+      }, {
+         name: "18_etienne",
+         color: "191a26",
+         uniqsnd: !0
+      }, {
+         name: "19_readygo",
+         color: "191a26",
+         uniqsnd: !1
+      }, {
+         name: "20_woah",
+         color: "191a26",
+         uniqsnd: !0
+      },
+      {
+         name: "21_pfb",
+         color: "ee9a48",
+         uniqsnd: !0
+      }
+   ],
+   bonusarray: [{
+      name: "Blizz",
+      src: "v2-b1-blizz-hb",
+      code: "2,7,13,15,16",
+      sound: "bonus-blizz",
+      aspire: "aspire-blizz",
+      loop: 2,
+   }, ],
+};
