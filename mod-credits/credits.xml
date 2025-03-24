@@ -14,16 +14,16 @@ FORMATTING:
 
 <credits>
   <page 
-  noImage="true"
-  image=""
-  title="Credit Page"
-  text="You can edit this page inside (!italic/mod-credits/credits.xml file.)(!line) You can add more pages by copying the page tag and pasting it below the last page tag."
-  />
-  <page 
   noImage="false"
   image="mod-credits/01c_remmie-hd.png"
   title="Special Thanks!"
   text="Incredibox Modding Build created with passion by (!color/#64b1e8/(!bold/Rem))! Love creative mods and unique sounds? Support her work and explore more on her channel! (!line)(!line)(!hr)(!line) (!button/#8f1e22/social_youtube.png/https://www.youtube.com/@rin.Incredibox//Rem's Channel)"
+  />
+  <page 
+  noImage="false"
+  image="02-team-hd.png"
+  title="The Team"
+  text="Made by (!line) PersonFromBrazil (!line) Artemiy Kopych (!line) The Thing"
   />
   <page 
   noImage="false"
