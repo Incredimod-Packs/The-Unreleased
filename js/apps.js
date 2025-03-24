@@ -203,12 +203,12 @@ versions.v2 = {
          name: "20_woah",
          color: "191a26",
          uniqsnd: !0
-      },
+      }/**,
       {
          name: "21_pfb",
          color: "ee9a48",
          uniqsnd: !0
-      }
+      }**/
    ],
    bonusarray: [{
       name: "Blizz",
