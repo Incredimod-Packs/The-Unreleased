@@ -57,7 +57,7 @@ OnDelayIn(500, function(){
       'Da Bass.png',
       'I love da bass',
       'Play Pop Zey bass for 20 loops',
-      'hidden',
+      'progress',
       20
     );
 });
