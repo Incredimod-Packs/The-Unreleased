@@ -45,10 +45,10 @@ OnDelayIn(500, function(){
   ),
     setAchievement(
       RegisterMod,
-      'ARPEGGIO SQAUD!!!',
+      'ARPEGGIO SQUAD!!!',
       'Arpeggio Squad.png',
-      'ARPEGGIO SQAUD STAND UP!!!',
-      'Put the arpeggio sqaud together',
+      'ARPEGGIO SQUAD STAND UP!!!',
+      'Put the arpeggio squad together',
       'hidden'
     );
 });
@@ -92,6 +92,6 @@ function offV1Polo13() {
 function onV1Mix() {
   onBPM(100, function() {
   saunaGuyActive && yachtTouristActive && clubArtistActive && remixerActive && unlockAchievement(
-    RegisterMod, 'ARPEGGIO SQAUD!!!');
+    RegisterMod, 'ARPEGGIO SQUAD!!!');
     });
 }
