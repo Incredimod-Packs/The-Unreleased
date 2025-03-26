@@ -25,14 +25,14 @@ var ModDeveloper = "Developer";
 
 // Simple function for locked icons!
 function onLockedIcon(){
-  boxDialog.open('This Icon is locked', 'LOCKED!')
+  boxDialog.open('This Icon is locked', 'LOCKED!');
 }
 
 function onV1Bonus1Finished(){ 
-  QuickMessage('Bonus Ended')
-  Shake(10, 500)
+  QuickMessage('Bonus Ended');
+  Shake(10, 500);
 }
 
 OnDelayIn(500, ()=>{
-  setAchievement(RegisterMod, 'diperdolongas', 'diperdolongas.png', 'diperdolongas', 'Use party stars for 50 loops' 'progress')
+  setAchievement(RegisterMod, 'diperdolongas', 'diperdolongas.png', 'diperdolongas', 'Use party stars for 50 loops' 'progress');
 }
