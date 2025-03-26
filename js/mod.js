@@ -106,5 +106,5 @@ function onV1Mix() {
 }
 
 function onV2Polo6() {
-  addProgressAchievement(RegisterMod, 'Da Bass', 1)
+  addProgressAchievement(RegisterMod, 'Da Bass', 1);
 }
