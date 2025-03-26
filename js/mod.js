@@ -49,7 +49,16 @@ OnDelayIn(500, function(){
       'Arpeggio Squad.png',
       'ARPEGGIO SQUAD STAND UP!!!',
       'Put the arpeggio squad together',
-      'hidden'
+      'normal'
+    ),
+    setAchievement(
+      RegisterMod,
+      'Da Bass',
+      'Da Bass.png',
+      'I love da bass',
+      'Play Pop Zey bass for 20 loops',
+      'hidden',
+      20
     );
 });
 
@@ -58,7 +67,7 @@ function onV1Polo18() {
 }
 
 function onV1Polo9() {
-  saunaGuyActive = !1;
+  saunaGuyActive = !0;
 }
 
 function offV1Polo9() {
@@ -66,7 +75,7 @@ function offV1Polo9() {
 }
 
 function onV1Polo10() {
-  yachtTouristActive = !1;
+  yachtTouristActive = !0;
 }
 
 function offV1Polo10() {
@@ -74,7 +83,7 @@ function offV1Polo10() {
 }
 
 function onV1Polo12() {
-  clubArtistActive = !1;
+  clubArtistActive = !0;
 }
 
 function offV1Polo12() {
@@ -82,7 +91,7 @@ function offV1Polo12() {
 }
 
 function onV1Polo13() {
-  remixerActive = !1;
+  remixerActive = !0;
 }
 
 function offV1Polo13() {
@@ -94,4 +103,8 @@ function onV1Mix() {
   saunaGuyActive && yachtTouristActive && clubArtistActive && remixerActive && unlockAchievement(
     RegisterMod, 'ARPEGGIO SQUAD!!!');
     });
+}
+
+function onV2Polo6() {
+  addProgressAchievement(RegisterMod, 'Da Bass', 1)
 }
