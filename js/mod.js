@@ -56,7 +56,7 @@ OnDelayIn(500, function(){
       'Da Bass',
       'Da Bass.png',
       'I love da bass',
-      'Play Pop Zey bass for 20 loops',
+      'Play Amplifier for 20 loops',
       'progress',
       20
     );
