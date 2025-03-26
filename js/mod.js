@@ -34,9 +34,54 @@ function onV1Bonus1Finished(){
 }
 
 OnDelayIn(500, function(){
-  setAchievement(RegisterMod, 'diperdolongas', 'diperdolongas.png', 'diperdolongas', 'Use party stars for 50 loops', 'progress', 50);
+  setAchievement(
+    RegisterMod, 
+    'diperdolongas', 
+    'diperdolongas.png', 
+    'diperdolongas', 
+    'Use party stars for 50 loops', 
+    'progress', 
+    50
+  ),
+    setAchievement(
+      RegisterMod,
+      'ARPEGGIO SQAUD!!!',
+      
+    )
 })
 
 function onV1Polo18() {
   addProgressAchievement(RegisterMod, 'diperdolongas', 1)
+}
+
+function onV1Polo9() {
+  saunaGuyActive = !0;
+}
+
+function offV1Polo9() {
+  saunaGuyActive = !1;
+}
+
+function onV1Polo10() {
+  yachtTouristActive = !0;
+}
+
+function offV1Polo10() {
+  yachtTouristActive = !1;
+}
+
+function onV1Polo12() {
+  clubArtistActive = !0;
+}
+
+function offV1Polo12() {
+  clubArtistActive = !1;
+}
+
+function onV1Polo13() {
+  remixerActive = !0;
+}
+
+function offV1Polo13() {
+  remixerActive = !1;
 }
