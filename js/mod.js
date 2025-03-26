@@ -19,9 +19,9 @@ Access-Control-Allow-Origin:* let ShakeEffectOn=null===localStorage.getItem("Sha
 
 
 // Register your mod here
-var RegisterMod = "Unknow";
-var RegisterModVersion = "0.0.1";
-var ModDeveloper = "Developer";
+var RegisterMod = "The Unreleased";
+var RegisterModVersion = "2.0.0";
+var ModDeveloper = "PersonFromBrazil";
 
 // Simple function for locked icons!
 function onLockedIcon(){
@@ -33,7 +33,7 @@ function onV1Bonus1Finished(){
   Shake(10, 500);
 }
 
-OnDelayIn(500, ()=>{
+OnDelayIn(500, function(){
   setAchievement(RegisterMod, 'diperdolongas', 'diperdolongas.png', 'diperdolongas', 'Use party stars for 50 loops', 'progress', 50);
 })
 
