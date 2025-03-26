@@ -41,7 +41,7 @@ OnDelayIn(500, function(){
     'diperdolongas', 
     'Use party stars for 50 loops', 
     'progress', 
-    50
+    25
   ),
     setAchievement(
       RegisterMod,
@@ -58,7 +58,7 @@ OnDelayIn(500, function(){
       'I love da bass',
       'Play Amplifier for 20 loops',
       'progress',
-      20
+      10
     );
 });
 
@@ -107,5 +107,5 @@ function onV1Mix() {
 
 function onV2Polo6() {
   addProgressAchievement(RegisterMod, 'Da Bass', 1);
-  Shake(10, 500);
+  Shake(50, 1000);
 }
