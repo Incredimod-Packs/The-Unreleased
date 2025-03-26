@@ -62,7 +62,7 @@ function onV1Polo9() {
 }
 
 function offV1Polo9() {
-  saunaGuyActive = !0;
+  saunaGuyActive = !1;
 }
 
 function onV1Polo10() {
@@ -70,7 +70,7 @@ function onV1Polo10() {
 }
 
 function offV1Polo10() {
-  yachtTouristActive = !0;
+  yachtTouristActive = !1;
 }
 
 function onV1Polo12() {
@@ -78,7 +78,7 @@ function onV1Polo12() {
 }
 
 function offV1Polo12() {
-  clubArtistActive = !0;
+  clubArtistActive = !1;
 }
 
 function onV1Polo13() {
@@ -86,7 +86,7 @@ function onV1Polo13() {
 }
 
 function offV1Polo13() {
-  remixerActive = !0;
+  remixerActive = !1;
 }
 
 function onV1Mix() {
