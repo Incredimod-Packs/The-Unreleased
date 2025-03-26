@@ -46,42 +46,52 @@ OnDelayIn(500, function(){
     setAchievement(
       RegisterMod,
       'ARPEGGIO SQAUD!!!',
-      
-    )
-})
+      'Arpeggio Squad.png',
+      'ARPEGGIO SQAUD STAND UP!!!',
+      'Put the arpeggio sqaud together',
+      'hidden'
+    );
+});
 
 function onV1Polo18() {
-  addProgressAchievement(RegisterMod, 'diperdolongas', 1)
+  addProgressAchievement(RegisterMod, 'diperdolongas', 1);
 }
 
 function onV1Polo9() {
-  saunaGuyActive = !0;
-}
-
-function offV1Polo9() {
   saunaGuyActive = !1;
 }
 
-function onV1Polo10() {
-  yachtTouristActive = !0;
+function offV1Polo9() {
+  saunaGuyActive = !0;
 }
 
-function offV1Polo10() {
+function onV1Polo10() {
   yachtTouristActive = !1;
 }
 
-function onV1Polo12() {
-  clubArtistActive = !0;
+function offV1Polo10() {
+  yachtTouristActive = !0;
 }
 
-function offV1Polo12() {
+function onV1Polo12() {
   clubArtistActive = !1;
 }
 
+function offV1Polo12() {
+  clubArtistActive = !0;
+}
+
 function onV1Polo13() {
-  remixerActive = !0;
+  remixerActive = !1;
 }
 
 function offV1Polo13() {
-  remixerActive = !1;
+  remixerActive = !0;
+}
+
+function onV1Mix() {
+  onBPM(100, function() {
+  saunaGuyActive && yachtTouristActive && clubArtistActive && remixerActive && unlockAchievement(
+    RegisterMod, 'ARPEGGIO SQAUD!!!');
+    });
 }
