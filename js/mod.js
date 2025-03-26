@@ -34,5 +34,9 @@ function onV1Bonus1Finished(){
 }
 
 OnDelayIn(500, ()=>{
-  setAchievement(RegisterMod, 'diperdolongas', 'diperdolongas.png', 'diperdolongas', 'Use party stars for 50 loops' 'progress');
+  setAchievement(RegisterMod, 'diperdolongas', 'diperdolongas.png', 'diperdolongas', 'Use party stars for 50 loops', 'progress', 50);
+})
+
+function onV1Polo18() {
+  addProgressAchievement(RegisterMod, 'diperdolongas', 1)
 }
